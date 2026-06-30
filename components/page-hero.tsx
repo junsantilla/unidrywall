@@ -6,7 +6,7 @@ interface PageHeroProps {
 
 export function PageHero({ eyebrow, title, description }: PageHeroProps) {
     return (
-        <section className="overflow-hidden border-b border-border bg-foreground text-background md:mx-4 md:mt-4 md:rounded-b-[2rem] md:border-x md:border-t md:border-b-0">
+        <section className="overflow-hidden border-b border-border bg-foreground text-background md:mx-4 md:mt-4 md:rounded-[2rem] md:border md:border-b-0">
             <div className="mx-auto max-w-7xl px-4 pb-16 pt-32 md:px-8 md:pb-24 md:pt-44">
                 <p className="font-mono text-xs uppercase tracking-[0.25em] text-background/60">
                     {eyebrow}
